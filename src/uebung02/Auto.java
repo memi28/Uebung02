@@ -45,10 +45,7 @@ public class Auto extends Fahrzeug implements Comparable<Auto>{
         return "PS = "+ super.getPs();
         
     }
-    
-   
-    
-    
+ 
     public void setKlimaanlage(boolean klimaanlage) {
         this.klimaanlage = klimaanlage;
     }
